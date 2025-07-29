@@ -1,0 +1,68 @@
+
+/*Se indica que los form van a tener un margen del 10% hacia arriba y un margen del 10% hacia la izquierda*/
+form{
+    margin-top: 6%;
+    margin-left: 35%;
+}
+/*Lo que se hace que los input de mi clase form1 se cambien de color se cambie el ancho y el largo ademas de ampliar el texto en un tamaño de 17px
+y hacer que los textos que se escriban dentro de los input sea blanco */
+.form1 input{
+    
+    background-color: rgb(15, 14, 52);
+    height: 50px;
+    width: 400px;
+    font-size: 17px;
+    color: white;
+}
+
+/*Se modifica el ancho y el largo del boton iniciarsesion ademas de modificar el texto que esta dentro y el color */
+#iniciarsesion{
+
+    background-color: rgb(78, 144, 249);
+    color: white;
+    width: 408px;
+    height: 50px;
+    font-size: 20px;
+}
+/*se modifica el color del parrafo ademas de colocarlo centrado*/
+p{ 
+    display: flex;
+    justify-content: center;
+    color: rgb(58, 169, 238);
+}
+/*Se modifica el tamaño de la imagen y se crea un margen a la izquierda y un margen de abajo */
+
+#nombre{
+
+    width: 400px;
+    height: 30px;
+}
+#descripcion{
+
+    width: 400px;
+    height: 300px;
+}
+#precio{
+
+    width: 400px;
+    height: 30px;
+}
+#descuento{
+
+    width: 400px;
+    height: 30px;
+}
+#stock{
+
+    width: 400px;
+    height: 30px;
+
+}
+#categoria{
+
+    width: 400px;
+    height: 30px;
+
+}
+
+

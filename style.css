@@ -1,0 +1,148 @@
+
+/*Se cambia de color a negro haciendo que lo se escriba adentro sea blanco,se establece el relleno en 20 pixeles 
+,ajustando el ancho a un 98.9 del ancho de la ventana del navegador , ademas se indica el ancho y la altura */  
+.cabezera {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    color: white;
+    width: calc(100% - 40px);
+    
+}
+
+
+/* se ajustando el ancho a un 98.9 del ancho de la ventana del navegador */ 
+.imagen2{
+    width: 98.9vw;
+}
+
+/*Se modifica el h3 llamandolo por medio de la id  */
+#micuenta {
+    font-family: Arial, sans-serif;
+    float:right;
+    margin-right: 6%;
+    color:rgb(173, 173, 173);
+    font-size: 150%;
+}
+/*En general lo que hace todo los #imagen , coloca un margen de un 4% a la derecha y un margen de un 3% a la izquierda 
+esto con el fin de que existe un espacio entre las imagenes y que todas las imagenes se desplacen un poco a la izquierda*/
+.imagenes{ margin-right: 4%; margin-left: 3%;}
+
+
+/*se modifica el h1 con class = juegos haciendo que el h1 se corra un poco a la izquierda con el margin left ademas de cambiarle la fuente*/
+.juegos{margin-left: 3%;color: white;} 
+
+/*se modifica el h1 con class= blizzard haciendo que se corra un poco a la izquierda con el margin left ademas de cambiarle la fuente*/
+.blizzard{margin-left: 3%; color: rgb(129, 129, 129);}
+
+.imagenlogo{
+
+    
+    object-fit: cover;
+}
+
+p{
+    color:rgb(173, 173, 173);
+    font-size: 100%;
+
+}
+
+
+.valor1{
+
+    text-decoration: line-through;
+}
+
+#titulo{
+
+    margin-left: 38%;
+    
+   }
+
+   .agregar {
+    margin: 3% auto;
+    max-width: 40%;
+    padding: 2%;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#iniciarsesion2{
+
+    width: 40%;
+    padding: 2%;
+    border: none;
+    background-color: rgb(78, 144, 249);
+    color:black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#nombre{
+
+    width: 50%;
+    height: 20%;
+    padding: 1.8%;
+    border-radius: 4px;
+}
+
+#descripcion{
+
+    width: 73.7%;
+    height: 50%;
+    padding: 10%;
+
+}
+
+#stock{
+    width: 42.5%;
+    height: 20%;
+    padding: 1.8%;
+    border-radius: 4px;
+
+}
+
+#categoria2{
+    width: 46.7%;
+    height: 20%;
+    padding: 1.8%;
+    border-radius: 4px;
+}
+
+   
+#precio{
+    width: 42.5%;
+    height: 20%;
+    padding: 1.8%;
+    border-radius: 4px;
+
+}
+
+#descuento{
+    width: 42.7%;
+    height: 20%;
+    padding: 1.8%;
+    border-radius: 4px;
+}
+
+#categoria{
+
+    width: 20%;
+    padding: 0.5%;
+    border: none;
+    border-radius: 4px;
+}
+
+#orden{
+
+    width: 20%;
+    padding: 0.5%;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+
+
+
+

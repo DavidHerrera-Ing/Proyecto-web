@@ -1,0 +1,16 @@
+/*elimina los espacio en blanco*/  
+body {
+    
+    margin: 0;
+    font-family: "Arial Narrow","Bahnschrift Light","Arial", "sans-serif";
+     background-image: url("imagenes/imagen1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+
+}
+
+
+

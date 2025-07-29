@@ -1,0 +1,64 @@
+
+/*se cambia el color de todos los placeholder de los inputs  */
+input::placeholder{
+    color:  rgb(203, 203, 203);;
+}
+  
+/*se modifica el largo todos los input*/
+input{
+    height: 25px;
+}
+
+/*se modifica el largo de todos los select*/
+select{
+    height: 30px;
+}
+
+/*se modifica el boton de crear cuenta , el color ,el tamaño , el tamaño del texto y el color del texto, ademas de cambiar el color del borde*/
+#Crear{
+
+    background-color: rgb(78, 144, 249);
+    color: white;
+    width: 548px;
+    height: 33px;
+    font-size: 20px;
+    border-color: rgb(78, 144, 249); ;
+}
+
+/*Se modifica el color de fondo y el color del texto de mi boton existente ademas de modificar su ancho y largo.y modificar el tamaño del texto.*/
+#existente{
+    background-color:  rgb(15, 14, 52);
+    color: rgb(21, 56, 228);
+    width: 548px;
+    height: 33px;
+    font-size: 20px;
+}
+
+/*Se crean un margen para arriba y izquieda , con el fin de mover todo.*/
+.mover{
+
+    margin-top: 5% ;
+    margin-left: 32%;
+}
+/*se cambia el color de todos los input de la clase color , como el color del texto a blanco*/
+.color input{
+
+    background-color: rgb(15, 14, 52);
+    color: white;
+
+}
+/*se modifica el color de fondo de los select y el color de los textos.*/
+.color select{
+    background-color: rgb(15, 14, 52);
+    color: rgb(203, 203, 203);
+
+}
+/*se modifica el color de los textos que estan dentro de los select por medio de un llamado a una clase.*/
+.color p{
+    color: rgb(137, 140, 140);
+}
+
+
+
+
+
